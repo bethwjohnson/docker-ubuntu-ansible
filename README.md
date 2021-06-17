@@ -27,6 +27,7 @@ In order to use this Docker version of Ansible, all that is left is to:
 2. Generate your SSH keys, if using.[4]
 3. Make any changes to `ansible.cfg` needed to manage your set-up. For example, set `become_ask_pass` to `True` to prompt for a password, if needed.[5,6]
 4. Generate your playbooks.
+5. This Container would be a good fit for a Jump Box Provisioner, such as the one used in the ELK Stack deployment project: https://github.com/bethwjohnson/portfolio/tree/master/ELK_Stack_Deployment 
 
 ## References:
 
